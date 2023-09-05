@@ -116,7 +116,11 @@ i {
   text-align: center;
   line-height: 150%;
   max-width: 940px;
-  font-size: 48px;
+  font-size: 60px;
+  color: rgb(251, 253, 243);
+  text-transform: uppercase;
+
+font-family: 'Zeyada', cursive;
 }
 .hero p {
   text-align: center;
@@ -280,7 +284,9 @@ i {
 }
 
 .footer-icons {
+
   display: flex;
+  align-items: center;
   color: #fff;
   gap: 8px;
   transform: scale(1.2);
@@ -345,3 +351,10 @@ a {
   cursor: pointer;
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
+
+.teste {
+
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
