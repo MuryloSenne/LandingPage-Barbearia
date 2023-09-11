@@ -116,11 +116,7 @@ i {
   text-align: center;
   line-height: 150%;
   max-width: 940px;
-  font-size: 60px;
-  color: rgb(251, 253, 243);
-  text-transform: uppercase;
-
-font-family: 'Zeyada', cursive;
+  font-size: 48px;
 }
 .hero p {
   text-align: center;
@@ -186,6 +182,11 @@ font-family: 'Zeyada', cursive;
 
 .about-content div {
   flex: 1;
+}
+
+.about-description{
+  box-shadow: 10px 10px  grey;
+  border-radius: 30px;
 }
 
 .about-description h2 {
@@ -284,9 +285,7 @@ font-family: 'Zeyada', cursive;
 }
 
 .footer-icons {
-
   display: flex;
-  align-items: center;
   color: #fff;
   gap: 8px;
   transform: scale(1.2);
@@ -351,10 +350,3 @@ a {
   cursor: pointer;
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
-
-.teste {
-
-  display: flex;
-  justify-content: center;
-  padding: 50px;
-}
